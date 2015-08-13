@@ -1,0 +1,28 @@
+{
+  "name": "browserify-casesensitiverequire",
+  "version": "1.0.0",
+  "description": "A simple browserify transform to ensure that the case of require()'d file names are consistent, and warn the user if they aren't",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteward44/browserify-casesensitiverequire.git"
+  },
+  "keywords": [
+    "browserify-transform",
+    "browserify"
+  ],
+  "author": "Pete Ward <peteward44@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peteward44/browserify-casesensitiverequire/issues"
+  },
+  "homepage": "https://github.com/peteward44/browserify-casesensitiverequire",
+  "dependencies": {
+    "browserify-transform-tools": "^1.4.2",
+    "colors": "^1.1.2",
+    "through2": "^2.0.0"
+  }
+}
