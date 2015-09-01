@@ -1,6 +1,6 @@
 {
   "name": "browserify-casesensitiverequire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple browserify transform to ensure that the case of require()'d file names are consistent, and warn the user if they aren't",
   "main": "index.js",
   "scripts": {
