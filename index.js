@@ -10,7 +10,8 @@ var paths = [];
 module.exports = transformTools.makeRequireTransform(
 	"browserify-casesensitiverequire",
 	{
-		evaluateArguments: true
+		evaluateArguments: true,
+		jsFilesOnly: true
 	},
 	function( args, opts, cb ) {
 
